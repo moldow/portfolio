@@ -10,26 +10,26 @@ body {
 
 }
 
-#nav {
+#topnav {
     float: left;
-    position: relative;
-    left: 50%;
+    position: absolute;
+
 
 }
 
-#nav ul {
-    float: left;
+#topnav ul {
+
     position: relative;
-    left: -50%;
     list-style: none;
     overflow: hidden;
-    top: 10em;
+    top: 1em;
     width: 100%;
+    padding: 0px 0px 0px 0px;
 
 
 }
 
-#nav li {
+#topnav li {
     float: left;
     font-family: 'Raleaway', sans-serif;
     text-align: center;
@@ -37,14 +37,14 @@ body {
 
 }
 
-#nav a {
+#topnav a {
     float: left;
     text-decoration: none;
     color: black;
     display: block;
     text-align: center;
     padding: 10px 15px 10px 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 a:hover {
