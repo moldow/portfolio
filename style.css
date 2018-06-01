@@ -81,3 +81,18 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 100px) {
+    .column {
+        width: 100%;
+    }
+}
