@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+
+#wrap {
+    overflow: hidden;
+    position: relative;
+
+}
+
+#nav {
+    float: left;
+    position: relative;
+    left: 50%;
+
+}
+
+#nav ul {
+    float: left;
+    position: relative;
+    left: -50%;
+    list-style: none;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+
+
+}
+
+#nav li {
+    float: left;
+    font-family: 'Raleaway', sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#nav a {
+    float: left;
+    text-decoration: none;
+    padding: 0 30px;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+
+}
