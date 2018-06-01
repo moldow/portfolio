@@ -48,8 +48,8 @@ body {
     font-size: 15px;
 }
 
-a:hover {
-    background-color: rgba(122, 227, 154, 0.67);
+#topnav a:hover {
+    background-color: rgba(122, 227, 154, 0.28);
 }
 
 hr {
@@ -95,4 +95,43 @@ html {
     .column {
         width: 100%;
     }
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(190, 195, 192);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
