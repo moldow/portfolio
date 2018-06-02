@@ -97,6 +97,7 @@ html {
 .container {
     position: relative;
     width: 50%;
+    height: 50%;
 }
 
 .image {
