@@ -5,6 +5,14 @@ body {
 }
 
 
+<meta name="viewport" content="width=device-width, initial-scale=1" > {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
 #wrap {
     overflow: hidden;
     position: relative;
