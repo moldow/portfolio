@@ -92,28 +92,16 @@ html {
     margin-right: auto;
 }
 
-.row {
-    display: flex;
-}
+
 
 .column {
     flex: 33.33%;
-    padding: 10px;
-}
-
-
-.container {
+    padding: 0px;
     position: relative;
     width: 50%;
     height: 50%;
+    display: flex;
 }
-
-.image {
-    display;
-    align-items: flex-end;
-    width: auto;
-    height: auto;
-    ;
 
 }
 
@@ -145,5 +133,8 @@ a {
 
 .image {
     border-radius: 0.5em;
+    align-items: flex-end;
+    width: auto;
+    height: auto;
 
 }
