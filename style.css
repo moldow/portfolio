@@ -13,6 +13,7 @@ body {
 }
 
 
+
 #wrap {
     overflow: hidden;
     position: relative;
@@ -63,10 +64,11 @@ body {
 }
 
 hr {
-    width: 100%;
+    width: 50%;
     height: 1px;
     background-color: #101010;
     border: none;
+
 }
 
 
@@ -86,37 +88,34 @@ html {
 
 
 
-.tekst {
+.h2 {
     max-width: 30em;
+    text-align: center;
 }
 
+.tekst {
+    max-width: 40em;
+    text-align: center;
+}
 
-.container {
-    flex: 33.33%;
-    padding: 10px;
-    position: relative;
-    width: 50%;
-    height: 50%;
+.punkter {
+    text-align: center;
+
+}
+
+.flex-container {
     display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
-border-radius: 0.5em;
 }
 
 .container:hover .overlay {
     opacity: 1;
-}
-
-
-.flex-container {
-
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(244, 201, 216, 0.22);
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 a {
@@ -126,9 +125,12 @@ a {
 }
 
 .image {
-    border-radius: 0.5em;
+    border-radius: 1em;
     align-items: flex-end;
-    width: auto;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+
 
 }
