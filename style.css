@@ -2,6 +2,7 @@ body {
 
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 
@@ -9,7 +10,7 @@ body {
     width: 35px;
     height: 5px;
     background-color: black;
-    margin: 6px 0;
+    margin: 0;
 }
 
 
@@ -20,47 +21,25 @@ body {
 
 }
 
-.topnav {
-    float: left;
-    position: absolute;
-    top: 0;
-    width: 100;
 
+.navbar {
 
-}
-
-.topnav ul {
-
-    position: relative;
-    list-style: none;
+    background-color: rgb(255, 245, 245);
     overflow: hidden;
-    top: 1em;
+    position: fixed;
+    padding: 10px;
     width: 100%;
-
-
-
-}
-
-.topnav li {
-    float: left;
-    font-family: 'Raleaway', sans-serif;
     text-align: center;
-    text-decoration: none;
 
 }
 
-.topnav a {
+.navbar a {
     float: left;
-    text-decoration: none;
     color: black;
-    display: block;
     text-align: center;
-    padding: 10px 15px 10px 15px;
-    font-size: 15px;
-}
-
-.topnav a:hover {
-    background-color: rgba(244, 201, 216, 0.42);
+    padding: 10px;
+    font-family: 'Raleaway', sans-serif;
+    text-decoration: none;
 
 }
 
@@ -72,7 +51,7 @@ hr {
 }
 
 .link :hover {
-    background-color: rgba(244, 201, 216, 0.42);
+    background-color: rgb(124, 57, 191);
 
 
 
@@ -138,6 +117,24 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+}
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
 
+.row {
+    display: flex;
+    float: inherit;
+    padding: 0px;
+    width: 33.33%;
+}
+
+footer {
+    background-color: rgb(255, 245, 245);
+    clear: both;
+    padding: 5px;
+    text-align: center;
 }
