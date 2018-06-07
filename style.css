@@ -24,7 +24,7 @@ body {
 
 .navbar {
 
-    background-color: rgb(253, 204, 215);
+    background-color: black;
     overflow: hidden;
     position: fixed;
     padding: 10px;
@@ -37,7 +37,7 @@ body {
 
 .navbar a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     font-family: 'Raleaway', sans-serif;
@@ -121,10 +121,14 @@ a {
 }
 
 footer {
-    background-color: rgba(244, 136, 161, 0.34);
-    clear: both;
-    padding: 5px;
+    background-color: black;
     text-align: center;
+    clear: both;
+    display: flex;
+    float: none;
+    padding: 0px;
+    width: 20%;
+
 }
 
 .rov {
