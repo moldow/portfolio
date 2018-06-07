@@ -24,12 +24,14 @@ body {
 
 .navbar {
 
-    background-color: rgb(255, 245, 245);
+    background-color: rgb(253, 204, 215);
     overflow: hidden;
     position: fixed;
     padding: 10px;
+    padding-top: 0px;
     width: 100%;
     text-align: center;
+    padding-left: 0px;
 
 }
 
@@ -49,14 +51,6 @@ hr {
     background-color: #101010;
     border: none;
 }
-
-.link :hover {
-    background-color: rgb(124, 57, 191);
-
-
-
-}
-
 
 body,
 html {
@@ -98,16 +92,10 @@ html {
     padding-bottom: 2em;
 }
 
-}
-
-.container:hover .overlay {
-    opacity: 1;
-}
-
 a {
     text-decoration: none;
     color: black;
-    border-radius: 0.5em;
+
 }
 
 .image {
@@ -133,7 +121,7 @@ a {
 }
 
 footer {
-    background-color: rgb(255, 245, 245);
+    background-color: rgba(244, 136, 161, 0.34);
     clear: both;
     padding: 5px;
     text-align: center;
