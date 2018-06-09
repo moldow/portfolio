@@ -1,8 +1,15 @@
+/* GENERELT */
+
 body {
 
     background-color: white;
     font-family: 'Raleway', sans-serif;
     margin: 0;
+}
+
+body,
+html {
+    height: 100%;
 }
 
 
@@ -13,24 +20,19 @@ body {
     margin: 0;
 }
 
+/* GENERELT SLUT */
 
-
-#wrap {
-    overflow: hidden;
-    position: relative;
-
-}
-
+/* TOP MENU */
 
 .navbar {
 
-    background-color: black;
+    background-color: #333232;
     overflow: hidden;
     position: fixed;
-    padding: 5px;
+    padding: 0px;
     padding-top: 0px;
     width: 100%;
-    text-align: center;
+    text-align: right;
     padding-left: 0px;
 
 }
@@ -38,12 +40,21 @@ body {
 .navbar a {
     float: left;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 10px;
     font-family: 'Raleaway', sans-serif;
     text-decoration: none;
 
 }
+
+a:hover {
+    color: #f71247;
+}
+
+
+/* TOP MENU */
+
+/* BREAK LINJE */
 
 hr {
     width: 50%;
@@ -52,10 +63,9 @@ hr {
     border: none;
 }
 
-body,
-html {
-    height: 100%;
-}
+/* BREAK LINJE SLUT */
+
+/* TOP BILLEDE */
 
 .bg {
 
@@ -66,7 +76,9 @@ html {
     background-size: cover;
 }
 
+/* TOP BILLEDE SLUT */
 
+/* STYLE AF TEKST */
 
 .h2 {
     max-width: 30em;
@@ -80,7 +92,24 @@ html {
 
 .punkter {
     text-align: center;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* STYLE AF TEKST SLUT */
+
+/* PORTFOLIO BILLEDER */
+
+.image {
+    border-radius: 1em;
+    align-items: flex-end;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
 .flex-container {
@@ -92,44 +121,14 @@ html {
     padding-bottom: 2em;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+/* PORTFOLIO BILLEDER SLUT */
 
-}
-
-.image {
-    border-radius: 1em;
-    align-items: flex-end;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-}
+/* BILLEDE GALLERI */
 
 .column {
     float: left;
     width: 33.33%;
     padding: 0px;
-}
-
-.row {
-    display: flex;
-    float: inherit;
-    padding: 0px;
-    width: 33.33%;
-}
-
-.footer {
-    background-color: black;
-    text-align: center;
-    clear: both;
-    display: flex;
-    float: inherit;
-    width: 100%;
-    margin-bottom: 20px;
-
-
 }
 
 .rov {
@@ -157,6 +156,24 @@ a {
     vertical-align: middle;
 }
 
+/* BILLEDE GALLERI SLUT */
+
+/* FOOTER */
+
+.footer {
+    background-color: #333232;
+    clear: none;
+    display: flex;
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* FOOTER SLUT */
+
+/* MEDIA */
+
 @media screen and (max-width: 700px) {
     .column {
         -ms-flex: 50%;
@@ -171,3 +188,20 @@ a {
             flex: 100%;
             max-width: 100%;
         }
+
+
+        /* MEDIA SLUT */
+        /* ????
+        #wrap {
+            overflow: hidden;
+            position: relative;
+
+
+        .row {
+    display: flex;
+    float: inherit;
+    padding: 0px;
+    width: 33.33%;
+}
+
+        } */
